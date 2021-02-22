@@ -26,6 +26,6 @@ def scrape():
             print("erro:" + str(err))
             file1.close()
     
-for i in range(3):
+for i in range(2):
     t = threading.Thread(target=scrape)
     t.start()
